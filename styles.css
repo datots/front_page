@@ -1,0 +1,123 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    background-color:darkgrey;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    width: 100px;
+    
+}
+
+li a{
+    text-decoration: none;
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+
+div img{
+    padding-left: 35px;
+}
+
+main h1{
+    position: absolute;
+    width: 457px;
+    height: 66px;
+    left: 492px;
+    top: 191px;
+    right: 492px;
+    bottom: 0px;
+    font-weight: 600;
+    font-size: 56px;
+    font-family: 'front';
+    
+}
+
+
+.text p{
+    text-align: center;
+    padding-top: 273px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom:auto;
+    font-family: 'front'
+}
+
+
+.containter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 10px;
+    
+    
+}
+
+
+.containter p:hover{
+    border-style: solid;
+    border-radius: 30px;
+    color: brown;
+}
+
+a:hover {
+    background-color: green;
+  }
+
+
+  .gallery-grid{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "one two four four"
+    "five six three three";
+    column-gap:5px;
+    row-gap: 5px;
+}
+
+
+.third_image{
+    grid-area: three;
+}
+
+.second_image{
+    grid-area: two;
+}
+
+.first_image{
+    grid-area: one;
+}
+.fifth_image{
+    grid-area: five;
+}
+
+.furth_image{
+    grid-area: four;
+}
+
+.sixth_image{
+    grid-area: six;
+}
+
+
+.containter{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.foot li{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'front'
+}
